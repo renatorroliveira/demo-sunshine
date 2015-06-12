@@ -1,0 +1,30 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res/android">
+    <!-- Date label when displaying today's weather forecast [CHAR LIMIT=20] -->
+    <string name="today">Hoje</string>
+
+    <!-- Date label when displaying tomorrow's weather forecast [CHAR LIMIT=20] -->
+    <string name="tomorrow">Amanhã</string>
+
+    <!-- Date format for displaying day of week and date (i.e. Mon Jun 1) [CHAR LIMIT=20] -->
+    <string name="format_full_friendly_date"><xliff:g id="day">%1$s</xliff:g>, <xliff:g id="date">%2$s</xliff:g></string>
+
+    <string name="app_name" translatable="false">Sunshine</string>
+    <string name="app_package">com.developerkingdom.demo.sunshine</string>
+    <string name="sync_account_type">sunshine.demo.developerkingdom.com</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_share">Share</string>
+    <string name="weather_sunny">Sunny</string>
+    <string name="title_activity_detailed_forecast">Detailed Weather Forecast</string>
+    <string name="pref_location_title">Location</string>
+    <string name="pref_location_key" translatable="false">ss_location</string>
+    <string name="pref_location_default" translatable="false">Lavras,br</string>
+    <string name="pref_units_key">ss_temperature</string>
+    <string name="pref_units_title">Temperature Unit</string>
+    <string name="pref_units_default">metric</string>
+    <string name="action_view_location">View Location</string>
+
+    <string name="detailed_humidity">Humidade: <xliff:g id="humidity">%.2f</xliff:g></string>
+    <string name="detailed_wind">Vento: <xliff:g id="wind">%.2f</xliff:g> Km/h <xliff:g id="winddir">%s</xliff:g>&#x00B0;</string>
+    <string name="detailed_pressure">Pressão: <xliff:g id="pressure">%.2f</xliff:g> hPa</string>
+</resources>

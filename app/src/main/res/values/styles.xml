@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/sunshine_light_blue</item>
+        <item name="android:colorPrimaryDark">@color/sunshine_dark_blue</item>
+        <item name="android:actionBarStyle">@style/Sunshine.ActionBar</item>
+        <item name="android:fontFamily">Roboto</item>
+    </style>
+
+    <style name="Sunshine.ActionBar" parent="android:Widget.Material.ActionBar.Solid">
+        <item name="android:displayOptions">useLogo|showHome</item>
+        <item name="android:background">@color/sunshine_light_blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:logo">@drawable/ic_logo</item>
+        <item name="android:titleTextStyle">@style/Sunshine.ActionBar.Title</item>
+    </style>
+    <style name="Sunshine.ActionBar.Title" parent="android:TextAppearance.Material.Widget.ActionBar.Title.Inverse">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Sunshine.Text.Inverse" parent="android:TextAppearance.Material.Inverse">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="ForecastList">
+
+    </style>
+</resources>
